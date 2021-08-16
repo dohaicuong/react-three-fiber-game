@@ -1,0 +1,17 @@
+{
+  "name": "@bomberman/root",
+  "private": true,
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @bomberman/app -- yarn start",
+    "sb": "lerna exec --scope @bomberman/engine -- yarn storybook"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
