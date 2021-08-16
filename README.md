@@ -1,6 +1,4 @@
-# Monorepo for Create React App
-
-This is an example repo for a monorepo setup for create-react-app
+# 2D game with react three fiber
 
 ### Install dependencies
 ```yarn```
